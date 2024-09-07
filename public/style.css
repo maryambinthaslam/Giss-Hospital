@@ -9,6 +9,47 @@ body{
     padding-right: 5%;
 } */
 
+.card{
+    width: 25vw;
+    margin: 5%;
+    border-radius: 25px !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.sec1-buttons{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.btn-click{
+    background-color: #46BB3A;
+    border-radius: 99999px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 60px;
+    color: #ffffff;
+}
+
+.btn-click-2{
+    background-color: #fff;
+    border-radius: 99999px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 60px;
+    color: #000;
+}
+
+.card-img-top{
+    height: 50vh;
+    width: fit-content;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    /* width: max-content;
+    height: max-content; */
+}
+
 a{
     color: #20222A;
     text-decoration: none;
@@ -23,7 +64,9 @@ a:hover{
     flex-direction: row;
     width: 100%;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 50px !important;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* .left{
@@ -40,7 +83,7 @@ a:hover{
 } */
 
 .right{ 
-    position: absolute;
+    /* position: absolute; */
     right: 50px;
     top: 40px;
     display: flex;
@@ -64,7 +107,7 @@ a:hover{
 
 #section1{
     background-image: linear-gradient(#F2F5F6, #ADCCD6);
-    height: 100vh;
+    height: 98%;
 }
 
 .sec1{
@@ -84,6 +127,18 @@ a:hover{
     height: 200px;
     padding: 25% 0 25% 0;
     justify-content: center;
+}
+
+.sec1-title{
+    font-size: 47px;
+    font-weight: 700;
+    color: #000;
+    line-height: 50px;
+    font-family: Cairo;
+}
+
+.sec1-description{
+    color: #62676E;
 }
 
 #section1 img{
@@ -131,6 +186,7 @@ a:hover{
     justify-content: space-between;
     margin-top: 3%;
     color: #F2F5F6;
+    margin-bottom: 30px;
 }
 
 .sec2-count-dept h1{
@@ -149,22 +205,17 @@ a:hover{
     color: #FF7777;
 }
 
-.sec2-aboutus-btn{
-    display: flex;
-    background: #ffffff;
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
-    flex-direction: row;
-    align-items: center;
-    gap: 7%;
-    justify-content: center;
-    margin-top: 4%;
-    margin-bottom: 4%;
+.btn-click-about{
+    background-color: #fff;
+    border-radius: 99999px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 60px;
+    color: #000;
 }
 
-.sec2-aboutus-btn p{
-    margin: 0;
+.sec2-aboutus-btn{
+    margin-bottom: 50px;
 }
 
 .sec2-center-images{
@@ -204,7 +255,7 @@ a:hover{
 }
 
 .sec2-subsec2{
-    top: 0;
+    margin-top: 110px;
 }
 
 .sec2-round-img-list{
