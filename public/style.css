@@ -413,6 +413,10 @@ a:hover{
         padding-top: 20vh;
 }
 
+.sec8-img{
+    float: right;
+}
+
 .footer{
     padding-left: 7%;
     padding-right: 7%;
