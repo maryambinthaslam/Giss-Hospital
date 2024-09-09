@@ -383,11 +383,12 @@ a:hover{
     align-items: center;
     text-align: center;
     background-image: url(./images/location-bg.png);
-    /* width: 100vw; */
+    width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center; 
     /* position: relative; */
+    background-size: 70vw 70vh;
 }
 
 .sec7{
